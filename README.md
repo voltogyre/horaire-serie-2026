@@ -21,15 +21,14 @@ graph TD
     D -->|3Gagnant| I["🟡 MATCH 36<br/>FINALE<br/>(12 avril 15:30)<br/>Saint-Isidore"]
     D -->|4Perdant| J["MATCH 35<br/>Perdant #33<br/>(11 avril 20:00)<br/>Sainte-Claire"]
     E -->|5Gagnant| H["MATCH 34<br/>Gagnant #32<br/>(11 avril 15:00)<br/>Sainte-Claire"]
-    G -->|6Gagnant| H
-    H -->|7Gagnant| J
-    J -->|8Gagnant| I
-    H -->|9Perdant| K["Fin de la saison"]
-    B -->|10Gagnant| L["Régionnaux"]
-    H -->|11Gagnant| L["Régionnaux"]
+    H -->|6Gagnant| J
+    J -->|7Gagnant| I
+    H -->|8Perdant| K["Fin de la saison"]
+    B -->|9Gagnant| L["Régionnaux"]
+    H -->|10Gagnant| L["Régionnaux"]
 
-    linkStyle 0,1,3,5,6,7,8,10,11 stroke:#22c55e,stroke-width:2.5px
-    linkStyle 2,4,9 stroke:#ef4444,stroke-width:2.5px,stroke-dasharray:6 4
+    linkStyle 0,1,3,5,6,7,9,10 stroke:#22c55e,stroke-width:2.5px
+    linkStyle 2,4,8 stroke:#ef4444,stroke-width:2.5px,stroke-dasharray:6 4
     
 
 ```
