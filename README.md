@@ -16,19 +16,16 @@ graph TD
     A["🔴 MATCH 20<br/>SEIGNEURS 1 @ HUSKY 4<br/>(28 mars 20:30)<br/>Lévis"] 
     
     A -->|Gagnant| B["MATCH 27<br/>Gagnant #20<br/>(4 avril 14:00)<br/>Montmagny"]
-    A -->|Perdant| C["MATCH 24<br/>Perdant #20<br/>(29 mars 11:30)<br/>Sainte-Claire"]
     
     B -->|Gagnant| D["MATCH 33<br/>Gagnant #27<br/>(11 avril 12:30)<br/>Saint-Damien-de-Buckland"]
     B -->|Perdant| E["MATCH 32<br/>Perdant #27<br/>(5 avril 16:00)<br/>Saint-Agapit"]
     
-    C -->|Gagnant| F["MATCH 29<br/>Gagnant #24<br/>(4 avril 18:45)<br/>Saint-Isidore"]
     
     D -->|Gagnant| I["🟡 MATCH 36<br/>FINALE<br/>(12 avril 15:30)<br/>Saint-Isidore"]
     D -->|Perdant| J["MATCH 35<br/>Perdant #33<br/>(11 avril 20:00)<br/>Sainte-Claire"]
     
     E -->|Gagnant| H["MATCH 34<br/>Gagnant #32<br/>(11 avril 15:00)<br/>Sainte-Claire"]
     
-    F -->|Gagnant| G["MATCH 31<br/>Gagnant #29<br/>(5 avril 14:30)<br/>Saint-Agapit"]
     
     G -->|Gagnant| H
     
@@ -36,9 +33,6 @@ graph TD
     
     J -->|Gagnant| I
     
-    C -->|Perdant| K["Fin de la saison"]
-    F -->|Perdant| K["Fin de la saison"]
-    G -->|Perdant| K["Fin de la saison"]
     H -->|Perdant| K["Fin de la saison"]
     B -->|Gagnant| L["Régionnaux"]
     H -->|Gagnant| L["Régionnaux"]
