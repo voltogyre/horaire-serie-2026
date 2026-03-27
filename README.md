@@ -14,17 +14,17 @@ Ce document visualise graphiquement les chemins possibles que les équipes **Hus
 ```mermaid
 graph TD
     A["🔴 MATCH 20<br/>SEIGNEURS 1 @ HUSKY 4<br/>(28 mars 20:30)<br/>Lévis"] 
-    A -->|0Perdant| C["MATCH 24<br/>Perdant #20<br/>(29 mars 11:30)<br/>Sainte-Claire"]
-    C -->|1Gagnant| F["MATCH 29<br/>Gagnant #24<br/>(4 avril 18:45)<br/>Saint-Isidore"]
-    F -->|2Gagnant| G["MATCH 31<br/>Gagnant #29<br/>(5 avril 14:30)<br/>Saint-Agapit"]
-    G -->|3Gagnant| H["MATCH 34<br/>Gagnant #31<br/>(11 avril 15:00)<br/>Sainte-Claire"]
-    H -->|4Gagnant| J["MATCH 35<br/>Gagnant #34<br/>(11 avril 20:00)<br/>Sainte-Claire"]
-    J -->|5Gagnant| I["🟡 MATCH 36<br/>FINALE<br/>(12 avril 15:30)<br/>Saint-Isidore"]
-    C -->|6Perdant| K["Fin de la saison"]
-    F -->|7Perdant| K["Fin de la saison"]
-    G -->|8Perdant| K["Fin de la saison"]
-    H -->|9Perdant| K["Fin de la saison"]
-    H -->|10Gagnant| L["Régionnaux"]
+    A -->|Perdant| C["MATCH 24<br/>Perdant #20<br/>(29 mars 11:30)<br/>Sainte-Claire"]
+    C -->|Gagnant| F["MATCH 29<br/>Gagnant #24<br/>(4 avril 18:45)<br/>Saint-Isidore"]
+    F -->|Gagnant| G["MATCH 31<br/>Gagnant #29<br/>(5 avril 14:30)<br/>Saint-Agapit"]
+    G -->|Gagnant| H["MATCH 34<br/>Gagnant #31<br/>(11 avril 15:00)<br/>Sainte-Claire"]
+    H -->|Gagnant| J["MATCH 35<br/>Gagnant #34<br/>(11 avril 20:00)<br/>Sainte-Claire"]
+    J -->|Gagnant| I["🟡 MATCH 36<br/>FINALE<br/>(12 avril 15:30)<br/>Saint-Isidore"]
+    C -->|Perdant| K["Fin de la saison"]
+    F -->|Perdant| K["Fin de la saison"]
+    G -->|Perdant| K["Fin de la saison"]
+    H -->|Perdant| K["Fin de la saison"]
+    H -->|Gagnant| L["Régionnaux"]
 
     linkStyle 1,2,3,4,5,10 stroke:#22c55e,stroke-width:2.5px
     linkStyle 0,6,7,8,9 stroke:#ef4444,stroke-width:2.5px,stroke-dasharray:6 4
