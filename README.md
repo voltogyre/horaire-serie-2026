@@ -15,30 +15,21 @@ Ce document visualise graphiquement les chemins possibles que les équipes **Hus
 graph TD
     A["🔴 MATCH 20<br/>SEIGNEURS 1 @ HUSKY 4<br/>(28 mars 20:30)<br/>Lévis"] 
     
-    A -->|Gagnant| B["MATCH 27<br/>Gagnant #20<br/>(4 avril 14:00)<br/>Montmagny"]
-    
-    B -->|Gagnant| D["MATCH 33<br/>Gagnant #27<br/>(11 avril 12:30)<br/>Saint-Damien-de-Buckland"]
-    B -->|Perdant| E["MATCH 32<br/>Perdant #27<br/>(5 avril 16:00)<br/>Saint-Agapit"]
-    
-    
-    D -->|Gagnant| I["🟡 MATCH 36<br/>FINALE<br/>(12 avril 15:30)<br/>Saint-Isidore"]
-    D -->|Perdant| J["MATCH 35<br/>Perdant #33<br/>(11 avril 20:00)<br/>Sainte-Claire"]
-    
-    E -->|Gagnant| H["MATCH 34<br/>Gagnant #32<br/>(11 avril 15:00)<br/>Sainte-Claire"]
-    
-    
-    G -->|Gagnant| H
-    
-    H -->|Gagnant| J
-    
-    J -->|Gagnant| I
-    
-    H -->|Perdant| K["Fin de la saison"]
-    B -->|Gagnant| L["Régionnaux"]
-    H -->|Gagnant| L["Régionnaux"]
+    A -->|0Gagnant| B["MATCH 27<br/>Gagnant #20<br/>(4 avril 14:00)<br/>Montmagny"]
+    B -->|1Gagnant| D["MATCH 33<br/>Gagnant #27<br/>(11 avril 12:30)<br/>Saint-Damien-de-Buckland"]
+    B -->|2Perdant| E["MATCH 32<br/>Perdant #27<br/>(5 avril 16:00)<br/>Saint-Agapit"]
+    D -->|3Gagnant| I["🟡 MATCH 36<br/>FINALE<br/>(12 avril 15:30)<br/>Saint-Isidore"]
+    D -->|4Perdant| J["MATCH 35<br/>Perdant #33<br/>(11 avril 20:00)<br/>Sainte-Claire"]
+    E -->|5Gagnant| H["MATCH 34<br/>Gagnant #32<br/>(11 avril 15:00)<br/>Sainte-Claire"]
+    G -->|6Gagnant| H
+    H -->|7Gagnant| J
+    J -->|8Gagnant| I
+    H -->|9Perdant| K["Fin de la saison"]
+    B -->|10Gagnant| L["Régionnaux"]
+    H -->|11Gagnant| L["Régionnaux"]
 
-    linkStyle 0,2,4,5,7,8,9,10,11,16,17 stroke:#22c55e,stroke-width:2.5px
-    linkStyle 1,3,6,12,13,14,15 stroke:#ef4444,stroke-width:2.5px,stroke-dasharray:6 4
+    linkStyle 0,1,3,5,6,7,8,10,11 stroke:#22c55e,stroke-width:2.5px
+    linkStyle 2,4,9 stroke:#ef4444,stroke-width:2.5px,stroke-dasharray:6 4
     
 
 ```
