@@ -23,7 +23,7 @@ graph TD
     M18B33 -->|Perdant| M18B35["MATCH 35<br/>Perdant #33<br/>(11 avril 20:00)<br/>Sainte-Claire"]
     M18B32 -->|Gagnant| M18B34["MATCH 34<br/>Gagnant #32<br/>(11 avril 15:00)<br/>Sainte-Claire"]
     M18B34 -->|Gagnant| M18B35
-    M18B35 -->|Gagnant| M18B32
+    M18B35 -->|Gagnant| M18B36
     M18B34 -->|Perdant| K["Fin de la saison"]
     M18B27 -->|Gagnant| W["Régionnaux"]
     M18B34 -->|Gagnant| W["Régionnaux"]
