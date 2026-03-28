@@ -13,15 +13,14 @@ graph TD
     M21C15 -->|Gagnant| M21C18["MATCH 18<br/>Gagnant #15<br/>(11 avril 16:00)<br/>Lévis"]
     M21C18 -->|Gagnant| M21C19["MATCH 19<br/>Gagnant #18<br/>(11 avril 20:30)<br/>Lévis"]
     M21C19 -->|Gagnant| M21C20["🟡 MATCH 20<br/>FINALE<br/>(12 avril 11:30)<br/>Saint-Agapit"]
+    M21C18 -->|Gagnant| L["Régionnaux"]
     M21C10 -->|Perdant| K["Fin de la saison"]
     M21C12 -->|Perdant| K["Fin de la saison"]
     M21C15 -->|Perdant| K["Fin de la saison"]
-    M21C16 -->|Perdant| K["Fin de la saison"]
-    M21C19 -->|Perdant| K["Fin de la saison"]
-    M21C18 -->|Gagnant| L["Régionnaux"]
+    
 
-    linkStyle 0,1,2,3,4,10 stroke:#22c55e,stroke-width:2.5px
-    linkStyle 5,6,7,8,9 stroke:#ef4444,stroke-width:2.5px,stroke-dasharray:6 4
+    linkStyle 0,1,2,3,4,5 stroke:#22c55e,stroke-width:2.5px
+    linkStyle 6,7,8 stroke:#ef4444,stroke-width:2.5px,stroke-dasharray:6 4
     
 
 ```
