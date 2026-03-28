@@ -7,7 +7,7 @@
 ```mermaid
 graph TD
     M21C07["Lost MATCH 7<br/>HUSKY 1 (2) @ SEIGNEURS 2 (4)<br/>(28 mars 16:00)<br/>Lévis"] 
-    M21C10["🔴 MATCH 10<br/>Perdant #7<br/>(29 mars 19:00)<br/>Saint-Nicolas"]
+    M21C10["🔴 MATCH 10<br/>Éclaireurs 1 vs Husky 1<br/>(29 mars 19:00)<br/>Saint-Nicolas"]
     M21C10 -->|Gagnant| M21C12["MATCH 12<br/>Gagnant #10<br/>(4 avril 18:00)<br/>Saint-Agapit"]
     M21C12 -->|Gagnant| M21C15["MATCH 15<br/>Gagnant #12<br/>(5 avril 16:00)<br/>Sainte-Marie"]
     M21C15 -->|Gagnant| M21C18["MATCH 18<br/>Gagnant #15<br/>(11 avril 16:00)<br/>Lévis"]
