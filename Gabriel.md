@@ -6,21 +6,20 @@
 
 ```mermaid
 graph TD
-    M21C07["Lost MATCH 7<br/>HUSKY 1 (2) @ SEIGNEURS 2 (4)<br/>(28 mars 16:00)<br/>Lévis"] 
-    M21C10["🔴 MATCH 10<br/>Éclaireurs 1 vs Husky 1<br/>(29 mars 19:00)<br/>Saint-Nicolas"]
-    M21C10 -->|Gagnant| M21C12["MATCH 12<br/>Gagnant #10<br/>(4 avril 18:00)<br/>Saint-Agapit"]
+    M21C07["❌ MATCH 7<br/>HUSKY 1 (2) @ SEIGNEURS 2 (4)<br/>(28 mars 16:00)<br/>Lévis"] 
+    M21C10["✌️ MATCH 10<br/>Éclaireurs 1 (3) vs Husky 1 (5)<br/>(29 mars 19:00)<br/>Saint-Nicolas"]
+    M21C12["🔴MATCH 12<br/>Husky 2 vs Husky 1<br/>(4 avril 18:00)<br/>Saint-Agapit"]
     M21C12 -->|Gagnant| M21C15["MATCH 15<br/>Gagnant #12<br/>(5 avril 16:00)<br/>Sainte-Marie"]
     M21C15 -->|Gagnant| M21C18["MATCH 18<br/>Gagnant #15<br/>(11 avril 16:00)<br/>Lévis"]
     M21C18 -->|Gagnant| M21C19["MATCH 19<br/>Gagnant #18<br/>(11 avril 20:30)<br/>Lévis"]
     M21C19 -->|Gagnant| M21C20["🟡 MATCH 20<br/>FINALE<br/>(12 avril 11:30)<br/>Saint-Agapit"]
     M21C18 -->|Gagnant| L["Régionnaux"]
-    M21C10 -->|Perdant| K["Fin de la saison"]
     M21C12 -->|Perdant| K["Fin de la saison"]
     M21C15 -->|Perdant| K["Fin de la saison"]
     
 
-    linkStyle 0,1,2,3,4,5 stroke:#22c55e,stroke-width:2.5px
-    linkStyle 6,7,8 stroke:#ef4444,stroke-width:2.5px,stroke-dasharray:6 4
+    linkStyle 0,1,2,3,4 stroke:#22c55e,stroke-width:2.5px
+    linkStyle 5,6 stroke:#ef4444,stroke-width:2.5px,stroke-dasharray:6 4
     
 
 ```
