@@ -8,8 +8,8 @@
 graph TD
     M18B05["✌️ MATCH 05<br/>Alliés 2 (1) @ HUSKY 4 (6)<br/>(21 mars 17:30)<br/>St-Étienne"]
     M18B20["✌️ MATCH 20<br/>SEIGNEURS 1 (2) @ HUSKY 4 (6)<br/>(28 mars 20:30)<br/>Lévis"] 
-    M18B30[Rapides 2 vs Sénateurs 1<br/>Seigneurs 3 vs Alliés 1]
-    M18B31[Éclaireurs2 vs Commandeurs 3<br/>Seigneurs 1 vs Rapides 1<br/>Perdant entre Commandeurs 2 vs Éclaireurs 3]
+    M18B30[Sénateurs 1 vs Seigneurs 3]
+    M18B31[Commandeurs 3 vs Rapides 1<br/>Perdant entre Commandeurs 2 vs Éclaireurs 3]
     M18B28[Commandeurs 2 vs Éclaireurs 3]
    
     M18B27["🔴 MATCH 27<br/>HUSKY 1 @ HUSKY 4<br/>(4 avril 14:00)<br/>Montmagny"]
