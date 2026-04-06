@@ -10,7 +10,7 @@ graph TD
     M18B20["✌️ MATCH 20<br/>SEIGNEURS 1 (2) @ HUSKY 4 (6)<br/>(28 mars 20:30)<br/>Lévis"] 
     M18B27["✌️ MATCH 27<br/>HUSKY 1 (1) @ HUSKY 4 (2)<br/>(4 avril 14:00)<br/>Montmagny"]
     W["✌️Régionnaux✌️<br/>Achievement Unlocked"]
-    M18B34[Commandeurs 2 vs Seigneurs 3]
+    M18B34["MATCH 34<br/>Commandeurs 2 vs Seigneurs 3"]
     
     M18B33["🔴MATCH 33<br/>HUSKY 4 vs ECLAIREURS 3<br/>(11 avril 12:30)<br/>Saint-Damien-de-Buckland"]
     M18B33 -->|Gagnant| M18B36["🟡 MATCH 36<br/>FINALE<br/>(12 avril 15:30)<br/>Saint-Isidore"]
